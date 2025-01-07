@@ -4,14 +4,14 @@ Universal template to ease out building CRUD apps in MERN
 
 ***Here are the key commands to set up a MERN stack CRUD app:***
 
-###1. Initialize project and create directories:
+### 1. Initialize project and create directories:
 ```bash
 mkdir mern-crud
 cd mern-crud
 mkdir backend frontend
 ```
 
-###2. Set up backend:
+### 2. Set up backend:
 ```bash
 cd backend
 npm init -y
@@ -23,7 +23,7 @@ npm install express mongoose cors dotenv nodemon
 - dotenv: Environment variables
 - nodemon: Auto-restart server during development
 
-###3. Set up frontend:
+### 3. Set up frontend:
 ```bash
 cd ../frontend
 npx create-react-app .
@@ -33,7 +33,7 @@ npm install axios react-router-dom
 - axios: HTTP client for API requests
 - react-router-dom: Client-side routing
 
-###4. Add scripts to backend package.json:
+### 4. Add scripts to backend package.json:
 ```json
 "scripts": {
   "start": "node server.js",
@@ -41,7 +41,7 @@ npm install axios react-router-dom
 }
 ```
 
-###The basic structure will be:
+### The basic structure will be:
 ```
 mern-crud/
   ├── backend/
@@ -55,7 +55,7 @@ mern-crud/
       └── package.json
 ```
 
-###Start development with:
+### Start development with:
 ```bash
 # Terminal 1 (backend)
 cd backend
