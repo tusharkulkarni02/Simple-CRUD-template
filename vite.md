@@ -1,7 +1,7 @@
-#Template using Vite
-
-
-###Project Setup:
+# Template using Vite
+---
+*** Contains downloadable packages for auth as well! ***
+### Project Setup:
 ```bash
 # Create project
 npm create vite@latest mern-project
@@ -9,7 +9,7 @@ cd mern-project
 mkdir backend frontend
 ```
 
-###Frontend Setup (/frontend):
+### Frontend Setup (/frontend):
 ```bash
 # Initial setup
 cd frontend
@@ -24,7 +24,7 @@ npm i -D sass eslint prettier
 npm run dev
 ```
 
-###Backend Setup (/backend):
+### Backend Setup (/backend):
 ```bash
 # Initialize
 cd backend
@@ -39,7 +39,7 @@ npm i -D nodemon
 npm run dev
 ```
 
-###Project Structure:
+### Project Structure:
 ```
 mern-project/
 ├── frontend/
@@ -62,7 +62,7 @@ mern-project/
 └── .gitignore
 ```
 
-###Root package.json:
+### Root package.json:
 ```json
 {
   "scripts": {
@@ -74,7 +74,7 @@ mern-project/
 }
 ```
 
-###Environment Setup:
+### Environment Setup:
 ```bash
 # Frontend (.env)
 VITE_API_URL=http://localhost:5000
