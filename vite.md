@@ -1,6 +1,6 @@
 # Template using Vite
 ---
-*** Contains downloadable packages for auth as well! ***
+***Contains downloadable packages for auth as well!***
 ### Project Setup:
 ```bash
 # Create project
